@@ -13,11 +13,11 @@ const footer = () => {
               <Link href="https://esecforte.com" className="flex items-center">
                 <Image
                   src={logo}
-                  className="h-9 w-9 sm:w-12 sm:h-12 rounded-lg mr-7"
+                  className="h-9 w-9 sm:w-12 sm:h-12 rounded-lg mr-2 md:mr-7"
                   priority={true}
                   alt="Logo"
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">
                   eSec Forte
                 </span>
               </Link>

@@ -7,3 +7,7 @@
     text-wrap: balance;
   }
 }
+
+.active{
+  color: rgb(15, 148, 236);
+}

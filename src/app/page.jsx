@@ -2,7 +2,8 @@ import React from "react";
 
 const Home = () => {
   return (
-      <div className="flex min-h-screen">Home</div>
+      <div className="min-h-screen">
+        Home</div>
   );
 };
 
