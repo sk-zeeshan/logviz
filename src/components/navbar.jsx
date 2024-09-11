@@ -11,22 +11,19 @@ const navbar = () => {
         <div className="flex flex-wrap items-center justify-between mx-auto p-2">
           <Link
             href="/"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
+            className="flex items-center ml-0.5"
           >
             <Image
               src={logo}
-              className="h-9 w-9 sm:w-12 sm:h-12 rounded-lg"
+              className="w-28 h-9 sm:w-32 sm:h-10 rounded-lg"
               priority={true}
               alt="Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              LogViz
-            </span>
           </Link>
           <button
             data-collapse-toggle="navbar-dropdown"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-8 h-8 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-dropdown"
             aria-expanded="false"
           >

@@ -6,20 +6,17 @@ import logo from "../assets/logo.png";
 const footer = () => {
   return (
     <>
-      <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
+      <footer className="p-4 bg-gray-50 sm:p-6 dark:bg-gray-800">
         <div className="mx-auto">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link href="https://esecforte.com" className="flex items-center">
                 <Image
                   src={logo}
-                  className="h-9 w-9 sm:w-12 sm:h-12 rounded-lg mr-2 md:mr-7"
+                  className="h-14 w-48 rounded-lg"
                   priority={true}
                   alt="Logo"
                 />
-                <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  eSec Forte
-                </span>
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
